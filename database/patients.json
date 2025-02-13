@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "first_name": "Stacy",
+    "last_name": "Catherine",
+    "age": 30,
+    "sex": "F",
+    "geo": "Nairobi",
+    "phone": "25479999999",
+    "email": "stacycatex@gmail.com"
+  },
+  {
+    "id": 2,
+    "first_name": "Mike",
+    "last_name": "Njenga",
+    "age": 25,
+    "sex": "M",
+    "geo": "Kiambu",
+    "phone": "25479999998",
+    "email": "mikenjenga@gmail.com"
+  },
+  {
+    "id": 3,
+    "first_name": "John",
+    "last_name": "Kamau",
+    "age": 27,
+    "sex": "M",
+    "geo": "Mombasa",
+    "phone": "25479999997",
+    "email": "johnkamau@gmail.com"
+  },
+  {
+    "id": 4,
+    "first_name": "Grace",
+    "last_name": "Wanjiru",
+    "age": 29,
+    "sex": "F",
+    "geo": "Kisumu",
+    "phone": "25479999996",
+    "email": "gracewanjiru@gmail.com"
+  },
+  {
+    "id": 5,
+    "first_name": "David",
+    "last_name": "Mutua",
+    "age": 32,
+    "sex": "M",
+    "geo": "Nakuru",
+    "phone": "25479999995",
+    "email": "davidmutua@gmail.com"
+  },
+  {
+    "id": 6,
+    "first_name": "Jane",
+    "last_name": "Achieng",
+    "age": 40,
+    "sex": "F",
+    "geo": "Eldoret",
+    "phone": "25479999994",
+    "email": "janeachieng@gmail.com"
+  },
+  {
+    "id": 7,
+    "first_name": "Brian",
+    "last_name": "Otieno",
+    "age": 35,
+    "sex": "M",
+    "geo": "Kisumu",
+    "phone": "25479999993",
+    "email": "brianotieno@gmail.com"
+  },
+  {
+    "id": 8,
+    "first_name": "Lucy",
+    "last_name": "Muthoni",
+    "age": 29,
+    "sex": "F",
+    "geo": "Thika",
+    "phone": "25479999992",
+    "email": "lucymuthoni@gmail.com"
+  },
+  {
+    "id": 9,
+    "first_name": "Samuel",
+    "last_name": "Mwangi",
+    "age": 27,
+    "sex": "M",
+    "geo": "Nyeri",
+    "phone": "25479999991",
+    "email": "samuelmwangi@gmail.com"
+  },
+  {
+    "id": 10,
+    "first_name": "Agnes",
+    "last_name": "Koech",
+    "age": 31,
+    "sex": "F",
+    "geo": "Kericho",
+    "phone": "25479999990",
+    "email": "agneskoech@gmail.com"
+  },
+  {
+    "id": 11,
+    "first_name": "Kevin",
+    "last_name": "Omondi",
+    "age": 33,
+    "sex": "M",
+    "geo": "Homa Bay",
+    "phone": "25479999989",
+    "email": "kevinomondi@gmail.com"
+  },
+  {
+    "id": 12,
+    "first_name": "Mary",
+    "last_name": "Njeri",
+    "age": 24,
+    "sex": "F",
+    "geo": "Meru",
+    "phone": "25479999988",
+    "email": "marynjeri@gmail.com"
+  },
+  {
+    "id": 13,
+    "first_name": "Robert",
+    "last_name": "Kariuki",
+    "age": 38,
+    "sex": "M",
+    "geo": "Embu",
+    "phone": "25479999987",
+    "email": "robertkariuki@gmail.com"
+  },
+  {
+    "id": 14,
+    "first_name": "Susan",
+    "last_name": "Wangari",
+    "age": 45,
+    "sex": "F",
+    "geo": "Machakos",
+    "phone": "25479999986",
+    "email": "susanwangari@gmail.com"
+  },
+  {
+    "id": 15,
+    "first_name": "Daniel",
+    "last_name": "Kimani",
+    "age": 36,
+    "sex": "M",
+    "geo": "Kakamega",
+    "phone": "25479999985",
+    "email": "danielkimani@gmail.com"
+  },
+  {
+    "id": 16,
+    "first_name": "Esther",
+    "last_name": "Ndungu",
+    "age": 22,
+    "sex": "F",
+    "geo": "Narok",
+    "phone": "25479999984",
+    "email": "estherndungu@gmail.com"
+  },
+  {
+    "id": 17,
+    "first_name": "Tom",
+    "last_name": "Kiprono",
+    "age": 37,
+    "sex": "M",
+    "geo": "Bomet",
+    "phone": "25479999983",
+    "email": "tomkiprono@gmail.com"
+  },
+  {
+    "id": 18,
+    "first_name": "Emily",
+    "last_name": "Chebet",
+    "age": 23,
+    "sex": "F",
+    "geo": "Kericho",
+    "phone": "25479999982",
+    "email": "emilychebet@gmail.com"
+  },
+  {
+    "id": 19,
+    "first_name": "Felix",
+    "last_name": "Njoroge",
+    "age": 30,
+    "sex": "M",
+    "geo": "Kiambu",
+    "phone": "25479999981",
+    "email": "felixnjoroge@gmail.com"
+  },
+  {
+    "id": 20,
+    "first_name": "Caroline",
+    "last_name": "Atieno",
+    "age": 29,
+    "sex": "F",
+    "geo": "Migori",
+    "phone": "25479999980",
+    "email": "carolineatieno@gmail.com"
+  }
+]
