@@ -1,10 +1,15 @@
 const patients = require('../database/patients.json');
+const pool = require('../database/connect');
 
 const handleRoot = async (req, res) => {
+  const client = pool.connect();
   try {
-    res.status(200).json({ ok: true, patients });
+    const { rows } = await (await client).query(`SELECT * FROM patients`);
+    res.status(200).json({ ok: true, rows });
   } catch (error) {
     console.log(error);
+  } finally {
+    (await client).release();
   }
 };
 
@@ -59,4 +64,25 @@ const handleQueries = async (req, res) => {
   }
 };
 
-module.exports = { handleRoot, getSinglePatient, handleQueries };
+//Adding Patients
+const addNewPatients = async (req, res) => {
+  const client = pool.connect();
+  try {
+    const newPatient = (await client).query(
+      `INSERT INTO patients (_id, first_name, last_name, sex, age, geo, phone, email) VALUES (101, 'Mike','Njenga', 'M', 25, 'Nakuru', '+2447999999', 'mikenjenga@gmail.com');`,
+    );
+
+    res.status(200).json({ ok: true, msg: 'Patient Added' });
+  } catch (error) {
+    console.log(error);
+  } finally {
+    (await client).release();
+  }
+};
+
+module.exports = {
+  handleRoot,
+  getSinglePatient,
+  handleQueries,
+  addNewPatients,
+};
