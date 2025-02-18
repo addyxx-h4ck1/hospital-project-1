@@ -66,13 +66,22 @@ const handleQueries = async (req, res) => {
 
 //Adding Patients
 const addNewPatients = async (req, res) => {
+  const { _id, first_name, last_name, age, sex, geo, phone, email } = req.body;
   const client = pool.connect();
+
   try {
-    const newPatient = (await client).query(
-      `INSERT INTO patients (_id, first_name, last_name, sex, age, geo, phone, email) VALUES (101, 'Mike','Njenga', 'M', 25, 'Nakuru', '+2447999999', 'mikenjenga@gmail.com');`,
+    const newPatient = await (
+      await client
+    ).query(
+      `INSERT INTO patients (_id, first_name, last_name, sex, age, geo, phone, email) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)`,
+      [_id, first_name, last_name, sex, age, geo, phone, email],
     );
 
-    res.status(200).json({ ok: true, msg: 'Patient Added' });
+    console.log(newPatient);
+
+    res
+      .status(201)
+      .json({ ok: true, msg: `${first_name} has been added as a patient` });
   } catch (error) {
     console.log(error);
   } finally {
