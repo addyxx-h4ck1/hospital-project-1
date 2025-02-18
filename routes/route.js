@@ -9,7 +9,7 @@ const {
 const router = Router();
 
 router.get('/', handleRoot);
-router.get('/create', addNewPatients);
+router.post('/create', addNewPatients);
 router.get('/patients/:patient_id', getSinglePatient);
 router.get('/search', handleQueries);
 
